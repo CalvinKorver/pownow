@@ -12,8 +12,11 @@ RUN apt-get update && apt-get install -y cron
 COPY . .
 
 # Run the crawler when the container launches with cron
-COPY crontab /etc/cron.d/crontab
-RUN chmod 0644 /etc/cron.d/crontab
-RUN crontab /etc/cron.d/crontab
-RUN touch /var/log/cron.log
-CMD cron && tail -f /var/log/cron.log
+# COPY hello-cron /etc/cron.d/hello-cron
+# RUN chmod 0644 /etc/cron.d/hello-cron
+# RUN crontab /etc/cron.d/hello-cron
+# # CMD cron
+CMD python ./go-spider.py
+
+
+

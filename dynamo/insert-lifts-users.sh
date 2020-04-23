@@ -4,8 +4,8 @@ aws dynamodb batch-write-item \
             {
                 "PutRequest": {
                     "Item": {
-                        "Username": {"S": "jerry"},
-                        "LiftId": {"S": "Headwall"},
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Aerial Tram"},
                         "Date": {"N": "1583496500"}
                     }
                 }
@@ -13,8 +13,89 @@ aws dynamodb batch-write-item \
             {
                 "PutRequest": {
                     "Item": {
-                        "Username": {"S": "matto"},
-                        "LiftId": {"S": "Headwall"},
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Belmont"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Big Blue Express"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Broken Arrow"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Emigrant"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Exhibition"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Funitel"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "KT22 Express"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Siberia Express"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Silverado"},
+                        "Date": {"N": "1583496000"}
+                    }
+                }
+            },
+            {
+                "PutRequest": {
+                    "Item": {
+                        "Username": {"S": "cjkorver"},
+                        "LiftId": {"S": "Solitude"},
                         "Date": {"N": "1583496000"}
                     }
                 }
